@@ -128,4 +128,3 @@ function strikeTaskTitle() {
 strikeTaskTitle()
 deleteTask()
 newTaskButton.addEventListener('click', newTaskPrompt)
-newTaskPrompt()

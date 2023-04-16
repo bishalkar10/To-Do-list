@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List</title>
+    <link rel="stylesheet" href="./dist/output.css">
+    <script src="./main.js" defer></script>
+</head>
+
+<body class="flex h-screen items-center justify-center">
+    <div id="container" class="relative bg-[#9a8c98] w-4/5 h-screen overflow-y-auto">
+        <ul>
+            <li class="grid-div">
+                <div class="task-div ">
+                    <input type="checkbox">
+                    <h1 class="task-title">Hello</h1>
+                    <p class="task-desc">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex distinctio soluta
+                        dolor magnam minima, in, ullam neque commodi rem, debitis alias vitae officia quo. Tempore
+                        officiis tempora quasi eveniet perspiciatis. Lorem ipsum dolor sit amet consectetur adipisicing
+                        elit. Libero excepturi ratione sit rem quos aspernatur quidem sequi placeat maxime accusantium!
+                        Iure culpa doloribus, consequuntur expedita itaque incidunt cupiditate? Cum, necessitatibus.</p>
+                </div>
+                <button class="del-btn btn "><img class="w-6 h-6" src="./icon/bin.png" alt="Del Button"></button>
+            </li>
+            <li class="grid-div">
+                <div class="task-div ">
+                    <input type="checkbox">
+                    <h1 class="task-title">Hello</h1>
+                    <p class="task-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, eaque,
+                        possimus quidem ducimus sunt, est natus dignissimos ratione minima laudantium minus quia? Nulla,
+                        libero distinctio. Facere quasi nostrum voluptatem vel.</p>
+                </div>
+                <button class="del-btn btn "><img class="w-6 h-6" src="./icon/bin.png" alt="Delete Button"></button>
+            </li>
+        </ul>
+        <a href="#" id="new-task" class=" z-10 absolute bottom-10 right-10 text-5xl ">+
+        </a>
+    </div>
+</body>
+
+</html>

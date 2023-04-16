@@ -1,0 +1,70 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .task-div {
+        @apply px-2 pb-2 border-2 border-black rounded-lg ml-2 mt-2 h-20 overflow-y-auto bg-[#edf6f9]
+    }
+}
+
+@layer components {
+    .task-title {
+        @apply text-xl font-bold inline-block
+    }
+}
+
+@layer components {
+    .task-desc {
+        @apply text-sm
+    }
+}
+
+@layer components {
+    .grid-div {
+        display: grid;
+        grid-template-columns: 1fr auto;
+    }
+}
+
+@layer components {
+    .btn {
+        @apply w-6 h-6 self-center mx-8
+    }
+}
+
+@layer components {
+    .new-task-prompt {
+        @apply grid-div w-full absolute bottom-20 p-2 border-2 border-black rounded-lg bg-[#a3b18a]
+    }
+}
+
+@layer components {
+    .new-task-div {
+        @apply flex flex-col gap-2 h-36 mx-2 mt-2 bg-[#a3b18a]
+    }
+}
+
+@layer components {
+    .new-task-title {
+        @apply text-xl pl-4 font-bold border-2 border-black rounded-lg bg-[#edf6f9]
+    }
+}
+
+@layer components {
+    .new-task-desc {
+        @apply border-2 px-4 border-black rounded-lg h-24 bg-[#edf6f9]
+    }
+}
+
+@layer components {
+    .btn-div {
+        @apply flex flex-col justify-evenly
+    }
+}
+
+/* @layer components {
+    .save-btn {
+        
+    }
+}  */
